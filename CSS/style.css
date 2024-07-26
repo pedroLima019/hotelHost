@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-default: #c9dabf;
+  --color-secundary: #9ca986;
+  --color-terciary: #808d7c;
+  --color-details: #5f6f65;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.986);
+}
+
+.navbar .navbar-brand img {
+  width: 65px;
+  border-radius: 10%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none; /* Remove the outline when clicked or focused */
+  box-shadow: none; /* Remove the box-shadow when clicked or focused */
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px; /* Increase the font size of the links */
+  color: black;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #5f6f65;
+}
+
+/* Header */
+
+header {
+  background-image: url(/img/imagem-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 100%;
+  height: 500px;
+}
+
+.container-propa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-text {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.card-text h2 {
+  font-size: 2.2rem;
+  padding: 20px;
+}
+
+.card-text p {
+  font-size: 1.1rem;
+}
+
+.card-text button {
+  background: #000000;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.card-text button:hover {
+  background: var(--color-terciary);
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* cards hospedagem */
+
+.hospedagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+
+.hospedagem-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-01 {
+  width: 50%;
+  margin: 0px 80px;
+  text-align: center;
+}
+
+.text-01 h3 {
+  font-size: 2rem;
+}
+
+.text-01 p {
+  text-align: center;
+}
+
+.text-01 i {
+  font-size: 2rem;
+}
+
+.text-02 {
+  width: 50%;
+  margin: 0px 80px;
+  text-align: center;
+}
+
+.text-02 h3 {
+  font-size: 2rem;
+}
+
+.text-02 p {
+  text-align: center;
+}
+
+.text-02 i {
+  font-size: 2rem;
+}
+
+/* hospedagem rooms */
+.hospedagem-rooms {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hospedagem-rooms h2 {
+  font-size: 3rem;
+}
+
+.hospedagem-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hospedagem-cards {
+  margin: 3rem;
+  width: 100%;
+}
+
+.hospedagem-cards img {
+  width: 100%;
+}
+
+.hospedagem-img p {
+  margin: 10px 0px 0px 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Reserva */
+.Reserva {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--color-default);
+}
+
+.card-reserva {
+  width: 50%;
+  padding: 40px;
+}
+
+.card-reserva h2 {
+  font-size: 40px;
+}
+
+.card-reserva p {
+  font-size: 20px;
+}
+
+.form-reserva {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 30px;
+}
+
+label {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  outline-color: var(--color-default);
+}
+
+.faixa-etaria {
+
+  margin: 10px 0;
+}
+
+.faixa-etaria label {
+  margin: 10px;
+}
+
+.faixa-etaria input {
+  width: 30%;
+}
+
+button{
+   border: none;
+   width: 50%;
+   margin: 15px auto;
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 15px;
+   background-color: var(--color-details);
+   transition: .3s ease-in-out;
+   color: #ffffff;
+}
+
+button:hover{
+   background-color: var(--color-secundary);
+}

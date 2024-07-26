@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+  .navbar .navbar-brand img {
+    width: 60px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+
+  .hospedagem {
+    padding: 0px;
+  }
+
+  .hospedagem-text {
+    flex-direction: column;
+  }
+
+  .text-01 {
+    margin: 50px;
+    width: 100%;
+  }
+
+  .text-02 {
+    width: 100%;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .hospedagem-rooms {
+    padding: 0px;
+    margin-top: 60px;
+  }
+
+  .hospedagem-img {
+    flex-direction: column;
+  }
+
+  .hospedagem-cards {
+    margin: 1.2rem;
+  }
+
+  .Reserva {
+    flex-direction: column;
+  }
+
+  .card-reserva {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .form-reserva {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar .navbar-brand img {
+    width: 50px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+
+  .hospedagem-rooms h2 {
+    font-size: 2rem;
+  }
+
+  .hospedagem-img p {
+    font-size: 1.2rem;
+  }
+
+  .card-reserva h2 {
+    font-size: 30px;
+  }
+
+  .card-reserva p {
+    font-size: 15px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .faixa-etaria{
+     display: flex;
+  }
+
+  button{
+     font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar .navbar-brand img {
+    width: 40px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  .hospedagem-img p {
+    font-size: 1rem;
+  }
+}
