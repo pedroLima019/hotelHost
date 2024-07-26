@@ -85,6 +85,9 @@ header {
   background: #000000;
   border: none;
   transition: 0.2s ease-in-out;
+  width: 200px;
+  padding: 8px;
+  font-weight: bold;
 }
 
 .card-text button:hover {
@@ -254,7 +257,7 @@ input {
   width: 30%;
 }
 
-button{
+.btn-form{
    border: none;
    width: 50%;
    margin: 15px auto;
@@ -262,11 +265,11 @@ button{
    border-radius: 5px;
    font-weight: bold;
    font-size: 15px;
-   background-color: var(--color-details);
+   /* background-color: var(--color-details); */
    transition: .3s ease-in-out;
    color: #ffffff;
 }
 
-button:hover{
+.btn-form:hover{
    background-color: var(--color-secundary);
 }
