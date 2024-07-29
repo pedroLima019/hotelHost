@@ -47,7 +47,7 @@
 /* Header */
 
 header {
-  background-image: url(/img/imagem-03.jpg);
+  background-image: url(/img/Background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,8 +200,8 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
-  background: var(--color-default);
+  background: var(--color-details);
+  color: #ffffff;
 }
 
 .card-reserva {
@@ -245,7 +245,7 @@ input {
 }
 
 .faixa-etaria {
-
+  display: flex;
   margin: 10px 0;
 }
 
@@ -254,22 +254,23 @@ input {
 }
 
 .faixa-etaria input {
-  width: 30%;
+  width: 15%;
+
 }
 
-.btn-form{
-   border: none;
-   width: 50%;
-   margin: 15px auto;
-   padding: 5px;
-   border-radius: 5px;
-   font-weight: bold;
-   font-size: 15px;
-   /* background-color: var(--color-details); */
-   transition: .3s ease-in-out;
-   color: #ffffff;
+.Reserva .btn-form {
+  border: none;
+  width: 50%;
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--color-secundary);
+  transition: 0.3s ease-in-out;
+  color: #ffffff;
 }
 
-.btn-form:hover{
-   background-color: var(--color-secundary);
+.Reserva .btn-form:hover {
+  background-color: var(--color-default);
 }
