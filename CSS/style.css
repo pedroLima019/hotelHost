@@ -107,16 +107,22 @@ main {
 
 .hospedagem {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
+}
+
+.hospedagem h1 {
+  margin: 1.5rem 0rem;
 }
 
 .hospedagem-text {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
   width: 100%;
 }
 
@@ -255,7 +261,11 @@ input {
 
 .faixa-etaria input {
   width: 15%;
+}
 
+textarea {
+  border: none;
+  border-radius: 5px;
 }
 
 .Reserva .btn-form {
