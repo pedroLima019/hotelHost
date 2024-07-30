@@ -7,6 +7,19 @@
     font-size: 18px;
   }
 
+  .container-propa {
+    flex-direction: column;
+  }
+
+  .card-text {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
   .hospedagem {
     padding: 0px;
   }
