@@ -114,9 +114,6 @@ main {
   width: 100%;
 }
 
-.hospedagem h1 {
-  margin: 1.5rem 0rem;
-}
 
 .hospedagem-text {
   display: flex;
@@ -170,7 +167,6 @@ main {
   align-items: center;
   width: 100%;
   text-align: center;
-  margin-top: 50px;
 }
 
 .hospedagem-rooms h2 {
