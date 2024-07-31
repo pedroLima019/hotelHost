@@ -12,12 +12,14 @@
   }
 
   .card-text {
+    text-align: center;
     width: 100%;
     padding: 20px;
   }
 
   .card-img {
     width: 100%;
+    padding: 20px;
   }
 
   .hospedagem {
@@ -25,8 +27,9 @@
   }
 
   .hospedagem h1 {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+    font-size: 35px;
   }
 
   .hospedagem-text {
@@ -36,10 +39,12 @@
 
   .text-01 {
     width: 100%;
+    padding: 20px;
   }
 
   .text-02 {
     width: 100%;
+    padding: 20px;
   }
 
   main {
@@ -85,6 +90,10 @@
   }
   .navbar-nav .nav-link {
     font-size: 15px;
+  }
+
+  header {
+    padding: 10px;
   }
 
   .hospedagem-rooms h2 {
