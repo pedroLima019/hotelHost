@@ -281,3 +281,37 @@ textarea {
 .Reserva .btn-form:hover {
   background-color: var(--color-default);
 }
+
+#reservas-tables {
+  font-size: 10px;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#reservas-tables h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+thead,
+tr {
+  width: 100%;
+  padding: 10px;
+}
+
+table,
+thead,
+tr,
+th {
+  text-align: center;
+  color: black;
+}
