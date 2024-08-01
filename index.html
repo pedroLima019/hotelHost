@@ -34,7 +34,7 @@
     />
 
     <!-- script -->
-     <script src="JS/validateForms.js" defer ></script>
+    <script src="JS/validateForms.js" defer></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css" />
@@ -43,10 +43,10 @@
     <title>Hotel Host</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid ">
         <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" /></a>
-        <div class="navbar-toggler-container">
+        <div class="navbar-toggler-container ">
           <button
             class="navbar-toggler border-0"
             type="button"
@@ -61,7 +61,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item  ">
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
@@ -84,16 +84,13 @@
             Faça sua Reserva
           </button>
         </div>
-        <div class="card-img">
-           <img src="img/Background.jpg" alt="">
-        </div>
       </section>
     </header>
     <!-- main -->
     <main>
       <!-- hospedagem -->
       <section class="hospedagem">
-        <h1>Por que se hospedar em nossos hotéis ? </h1>
+        <h1>Por que se hospedar em nossos hotéis ?</h1>
         <div class="hospedagem-text">
           <div class="text-01">
             <i class="bi bi-cup-hot-fill"></i>
@@ -112,15 +109,21 @@
         <div class="hospedagem-img">
           <div class="hospedagem-cards">
             <img src="img/imagem-01.jpg" alt="" />
-            <p>Suite solteiro</p>
+            <h3>Suite Casal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sunt?</p>
+            <button class="btn-reserva">Reservar</button>
           </div>
           <div class="hospedagem-cards">
             <img src="img/imagem-02.jpg" alt="" />
-            <p>Suite Casal</p>
+            <h3>Suite solteiro</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sunt?</p>
+            <button class="btn-reserva">Reservar</button>
           </div>
           <div class="hospedagem-cards">
             <img src="img/imagem-03.jpg" alt="" />
-            <p>Area de lazer</p>
+            <h3>Área de Lazer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sunt?</p>
+            <button class="btn-reserva">Reservar</button>
           </div>
         </div>
       </section>
@@ -135,9 +138,7 @@
           </p>
         </div>
         <div class="form-reserva">
-
-          <form method="post" id="postForm" >
-
+          <form method="post" id="postForm">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" />
 
@@ -145,10 +146,10 @@
             <input type="text" id="email" nome="email" />
 
             <label for="dataEntrada">Data Entrada:</label>
-            <input type="text" id="dataEntrada" nome="dataEntrada"/>
+            <input type="text" id="dataEntrada" nome="dataEntrada" />
 
             <label for="dataSaida">Data Saída:</label>
-            <input type="text" id="dataSaida" nome="dataSaida"/>
+            <input type="text" id="dataSaida" nome="dataSaida" />
 
             <div class="faixa-etaria">
               <label for="adulto">Adulto:</label>
@@ -157,8 +158,13 @@
               <label for="crianca">Criança:</label>
               <input type="text" id="crianca" nome="crianca" />
             </div>
-            <label for="observacoes">Obeservações:</label>
-            <textarea name="observacoes" id="observacoes" cols="10" rows="10"></textarea>
+            <!-- <label for="observacoes">Obeservações:</label>
+            <textarea
+              name="observacoes"
+              id="observacoes"
+              cols="10"
+              rows="10"
+            ></textarea> -->
             <button type="submit" class="btn-form">Enviar</button>
           </form>
         </div>

@@ -52,17 +52,12 @@
   }
 
   .hospedagem-rooms {
-    padding: 0px;
-    margin: 30px 0px;
-    padding: 20px;
+    margin-top: 30px;
   }
 
   .hospedagem-img {
     flex-direction: column;
-  }
-
-  .hospedagem-cards {
-    margin: 40px 0px;
+    width: 50%;
   }
 
   .Reserva {
@@ -100,8 +95,9 @@
     font-size: 2rem;
   }
 
-  .hospedagem-img p {
-    font-size: 1.2rem;
+  .hospedagem-img {
+    flex-direction: column;
+    width: 100%;
   }
 
   .text-01 h3,
