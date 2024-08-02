@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const dataSaida = document.getElementById('dataSaida').value;
       const adulto = document.getElementById('adulto').value;
       const crianca = document.getElementById('crianca').value;
-    //   const observacoes = document.getElementById('observacoes').value;
 
       const formData = {
           nome: nome,
@@ -16,8 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
           dataEntrada: dataEntrada,
           dataSaida: dataSaida,
           adulto: adulto,
-          crianca: crianca,
-        //   observacoes: observacoes
+          crianca: crianca
       };
 
       fetch('http://localhost:3000/reservas', {
